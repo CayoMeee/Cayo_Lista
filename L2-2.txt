@@ -1,0 +1,25 @@
+Var
+   L1,L2,L3:inteiro
+
+Inicio
+   escreval("Digite o primeiro lado.")
+   Leia(L1)
+   escreval("Digite o segundo lado.")
+   Leia(L2)
+   escreval("Digite o terceiro lado.")
+   Leia(L3)
+      se((L1+L2>L3) e (L2+L3>L1) e (L3+L1>L2))entao
+      escreval("Estes valores formam um triangulo.")
+         se((L1=L2) e (L2=L3) e (L3=L1))entao
+            escreval("Triangulo equilátero.")
+         fimse
+
+         se((L1=L2) e (L2<>L3) e (L1<>L3) ou (L1=L3) e (L1<>L2) e (L2<>L3) ou (L2=L3) e (L2<>L1) e (L3<>L1))entao
+            escreval("Triangulo isóceles.")
+         fimse
+
+         se((L1<>L2)e(L2<>L3)e(L3<>L1))entao
+            escreval("triangulo escaleno.")
+         fimse
+      fimse
+Fimalgoritmo

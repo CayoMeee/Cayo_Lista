@@ -1,0 +1,22 @@
+Var
+N1:inteiro
+
+
+Inicio
+escreval("Digite um número.")
+leia(N1)
+se(N1 mod 2=0)entao
+escreval("Seu número é Par.")
+senao
+escreval("Seu número é impar.")
+fimse
+se (N1>0)entao
+escreval("Seu número é Positivo.")
+fimse
+se(N1<0)entao
+escreval("Seu número é Negativo.")
+fimse
+
+
+
+Fimalgoritmo

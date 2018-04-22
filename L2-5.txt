@@ -1,0 +1,27 @@
+Var
+   // Seção de Declarações das variáveis
+   N1,N2,N3,S,ME,MU:REAL
+   V:CARACTER
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval("Digite um número.")
+   leia(N1)
+   escreval("Digite outro número")
+   leia(N2)
+   escreval("Digite o último número")
+   leia(N3)
+   escreval("Digite S para somar,ME para ter a média e MU para multiplicar)" )
+   Leia(V)
+   se (V="S")entao
+      S<-(N1+N2+N3)
+      escreval(S)
+   fimse
+   se (V="ME")entao
+      ME<-((N1+N2+N3)/2)
+      escreval(ME)
+   fimse
+   se (V="MU")entao
+      MU<-(N1*N2*N3)
+      escreval(MU)
+   fimse
+Fimalgoritmo
