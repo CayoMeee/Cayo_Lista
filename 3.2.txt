@@ -1,0 +1,11 @@
+Primeiro passo:
+Receber o primeiro valor e atribuilo a Altura;
+
+Segundo passo:
+Receber o segundo valor e atribuilo ao Volume;
+
+Terceiro passo:
+Calcular PI * Raio^2 * Altura;
+
+Quarto passo:
+Mostrar o resultado do calculo.

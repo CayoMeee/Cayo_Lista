@@ -1,0 +1,11 @@
+Var
+N1,C,F:Real
+Inicio
+
+escreval("Quantos graus quer converter?")
+leia(N1)
+C<-N1
+F<-(9*C+160)/5
+escreval(F)
+
+Fimalgoritmo

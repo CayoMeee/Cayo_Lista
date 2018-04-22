@@ -1,0 +1,20 @@
+Var
+N1,N2,D,P,M,S:real
+
+Inicio
+
+escreval("Digite um valor.")
+   leia(N1)
+escreval("Digite outro valor")
+   leia(N2)
+limpatela
+
+S<-N1+N2
+  D<-N1-N2
+    P<-N1*N2
+      M<-N1+N2/2
+
+escreval (S)
+escreval (D)
+escreval (P)
+escreval (M)

@@ -1,0 +1,11 @@
+Var
+ N1,R:inteiro
+
+Inicio
+
+escreval("Digite um Número")
+  leia(N1)
+    R<-N1*N1
+      escreval(R)
+
+Fimalgoritmo

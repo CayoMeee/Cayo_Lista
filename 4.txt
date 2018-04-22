@@ -1,0 +1,16 @@
+Var
+ N1,N2,Aux,A,B:Real
+
+Inicio
+escreval("Um numero para A")
+     Leia(N1)
+          A<-N1
+escreval("Um numero para B")
+     Leia(N2)
+         B<-N2
+Aux<-A
+ A<-B
+  B<-Aux
+   escreval(A)
+    escreval(B)
+Fimalgoritmo

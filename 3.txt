@@ -1,0 +1,17 @@
+Var
+ N1,N2,Altura,Raio,Volume:Real
+
+Inicio
+escreval("Informe a altura da lata.")
+leia(N1)
+Altura<-N1
+
+escreval("Informe o raio da circunferência da lata.")
+leia(N2)
+Raio<-N2
+
+Volume<-3.14*(Raio * Raio)*Altura;
+
+escreval("O volume da lata é: ",(Volume))
+
+Fimalgoritmo
